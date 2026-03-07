@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="app/src/main/ic_icon-playstore.png" alt="logo" width="200" height="auto" />
+  <img src="assets/icon.svg" alt="logo" width="200" height="auto" />
   <h1>QuickBars for Home Assistant</h1>
   
   <p>
