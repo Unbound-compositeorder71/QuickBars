@@ -73,6 +73,8 @@ Version 1.3.3 will be officially tagged, fully released, and rolled out to the P
 
 ## :star2: About the Project
 
+https://github.com/user-attachments/assets/51bb3ac7-a18a-4b1e-9c0f-6ec7e389e779
+
 QuickBars was born out of a simple need: making smart home control accessible on the big screen. Originally developed to help my father interact with Home Assistant via larger, more readable controls, it has grown into a powerful tool downloaded by over 16,000 users worldwide.
 
 It provides a fast, dynamic overlay that works over any app on your TV, ensuring your most-used Home Assistant actions are always just a click or two away.
