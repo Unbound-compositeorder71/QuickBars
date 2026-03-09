@@ -5,15 +5,16 @@ First off, thank you for considering contributing to QuickBars!
 Please take a moment to review these guidelines to make the contribution process effective for everyone.
 
 ## :octocat: The Contribution Workflow
+To ensure that changes align with the project's goals and architecture, please follow our refined workflow:
 
-To ensure that changes align with the project's goals and architecture, please follow this "Issue-First" workflow:
-
-1.  **Open an Issue**: Before writing any code, [open a new issue](https://github.com/Trooped/QuickBars/issues/new) to describe the bug or feature.
-2.  **Discussion**: Wait for other people to chime in and discuss the issue, and then for me to approve that we should start working on it. This ensures the change aligns with the project goals and architecture.
-3.  **Fork & Branch**: Once the issue is approved, fork the repository. Create a new descriptive feature branch from the main branch (e.g., `feature/new-entity-support` or `fix/overlay-flicker`).
-4.  **Local Development**: Set up your environment (see [Local Setup](#toolbox-local-setup) below).
-5.  **Manual Testing**: Verify your changes on a real device (see [Testing](#test_tube-testing--quality-assurance) below).
-6.  **Submit a Pull Request**: Submit your PR referencing the original issue (e.g., "Fixes #12"). Please write clear, descriptive commit messages so the project history remains easy to read.
+1. **Start a Discussion**: Before writing any code, [start a new discussion](https://github.com/Trooped/QuickBars/discussions/new/choose). 
+   - Use the **Ideas** category for new features.
+   - Use the **Q&A** category if you aren't sure if something is a bug or just a configuration issue.
+2. **Consensus & Approval**: Wait for the community and maintainers to chime in. Once we agree on the approach, a maintainer will convert the discussion into a formal **Issue**.
+3. **Fork & Branch**: Once the official issue is created and assigned, fork the repository. Create a new descriptive branch (e.g., `feature/new-entity-support` or `fix/overlay-flicker`).
+4. **Local Development**: Set up your environment (see [Local Setup](#toolbox-local-setup) below).
+5. **Manual Testing**: Verify your changes on a real device (see [Testing](#test_tube-testing--quality-assurance) below).
+6. **Submit a Pull Request**: Submit your PR referencing the original issue (e.g., "Fixes #12"). Please write clear, descriptive commit messages.
 
 ## :toolbox: Local Setup
 
@@ -57,7 +58,7 @@ Because QuickBars interacts with system-level overlays and physical remote key i
 AI use in PRs is allowed, but all code AI writes must be 100% understandable and familiar to the person making the PR, as if he wrote it himself, as well as meet the project's code and testing standards.
 
 ## :rocket: Help Wanted: CI/CD & Automation
-Manual testing is the current standard for this project, but I am very open to improvements. If you have experience with automated UI testing for Android TV or ideas for a CI/CD pipeline (e.g., GitHub Actions for build verification), please open an issue! I would love to discuss how to make the project more robust.
+Manual testing is the current standard for this project, but I am very open to improvements. If you have experience with automated UI testing for Android TV or ideas for a CI/CD pipeline, **please start a thread in [Discussions](https://github.com/Trooped/QuickBars/discussions/categories/Ideas)!** I would love to discuss how to make the project more robust.
 
 ## :scroll: License
 By contributing to QuickBars, you agree that your contributions will be licensed under the GNU General Public License v3.0 (GPLv3).
