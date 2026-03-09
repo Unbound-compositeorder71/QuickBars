@@ -34,11 +34,15 @@ object AppUpdateManager {
             25 -> listOf(
                 ChangeItem(
                     title = "QuickBars is now Open-Source!",
-                    description = "You can now find the official GitHub repository at https://github.com/Trooped/QuickBars. Feel free to explore the code or contribute to the project!"
+                    description = "You can now find the official GitHub repository at https://github.com/Trooped/QuickBars. Please leave a star, and feel free to explore the code or contribute to the project!"
                 ),
                 ChangeItem(
                     title = "Home Assistant 2026.3 Compatibility",
                     description = "Updated light entity controls to handle deprecated features introduced in HA 2026.3. QuickBars now uses kelvin-based values instead of mired-based values for better future-proofing."
+                ),
+                ChangeItem(
+                    title = "Light temperature controls bug fix",
+                    description = "Fixed a small bug where the light entities’ temperature and color controls were squished to the side, now it behaves the same as other controls."
                 )
             )
 
