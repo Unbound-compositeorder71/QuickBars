@@ -52,6 +52,19 @@ body:
         3. Result is Z...
     validations:
       required: true
+  - type: upload
+    id: design-mockups
+    attributes:
+      label: "Visuals / Mockups"
+      description: "Upload a screenshot, sketch, or design mockup for this feature, if applicable."
+    validations:
+      required: false
+      accept: ".png,.jpg,.jpeg,.gif,.svg,.webp"
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: "Additional Information"
+      description: "Anything else I should know? (e.g., more information on how to implement it, links to similar features in other apps etc.)."
   - type: textarea
     id: ha-config
     attributes:
