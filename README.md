@@ -21,7 +21,7 @@
   
   
 <p>
-  <img src="https://img.shields.io/badge/Downloads-16k%2B-blue?style=flat&logo=googleplay&logoColor=white" alt="Play Store Downloads" />
+  <img src="https://img.shields.io/badge/Downloads-17k%2B-blue?style=flat&logo=googleplay&logoColor=white" alt="Play Store Downloads" />
   <a href="https://github.com/Trooped/QuickBars/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/Trooped/QuickBars" alt="contributors" />
   </a>
@@ -41,17 +41,9 @@
     <img src="https://img.shields.io/github/license/Trooped/QuickBars.svg" alt="license" />
   </a>
 </p>
-   
-<h4>
-    <a href="https://quickbars.app/guide">Documentation</a>
-  <span> · </span>
-    <a href="https://github.com/Trooped/QuickBars/issues/">Report A Bug</a>
-  <span> · </span>
-    <a href="https://github.com/Trooped/QuickBars/issues/">Suggest A Feature/Improvement</a>
-  </h4>
+
 </div>
 
-<br />
 
 # :notebook_with_decorative_cover: Table of Contents
 
@@ -97,12 +89,13 @@ Have a question, a feature idea, or need help? Please use our Discussions page!
 
 > **Rule of Thumb:** For 🐛 **Bugs**, please [open an issue](https://github.com/Trooped/QuickBars/issues). For ✨ **Features** or 🙋 **Questions**, head to [Discussions](https://github.com/Trooped/QuickBars/discussions).
 
-1. Search First: Check if your question or idea has already been discussed.
-2. Pick a Category:
+1. Check First: Check if your idea is already an existing feature in the [guide](https://quickbars.app/guide), or if your problem already has a solution in [troubleshooting](https://quickbars.app/troubleshooting).
+2. Search Second: Search if your question or idea has already been discussed in the [discussions page](https://github.com/Trooped/QuickBars/discussions).
+3. Pick a Category:
    - Q&A: For "How do I..." questions or troubleshooting.
    - Ideas: For suggesting new features or improvements.
    - General: For everything else.
-3. Join In: Upvote ideas you like to help us prioritize what to build next!
+4. Join In: Upvote ideas you like to help us prioritize what to build next!
 
 ## :warning: License
 
