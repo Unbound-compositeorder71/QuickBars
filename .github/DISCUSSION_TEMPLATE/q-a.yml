@@ -45,6 +45,14 @@ body:
       placeholder: "Paste or drag screenshots here..."
     validations:
       required: false
+  - type: upload
+    id: file-attachments
+    attributes:
+      label: "Upload Configuration or Logs"
+      description: "Drag and drop relevant files here (e.g., your automation YAML or logs)."
+    validations:
+      required: false
+      accept: ".yaml, .txt, .log, .json, .png, .jpg"
   - type: textarea
     id: ha-logs
     attributes:
