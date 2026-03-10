@@ -52,8 +52,16 @@ body:
         3. Result is Z...
     validations:
       required: true
-  - type: upload
+  - type: textarea
     id: design-mockups
+    attributes:
+      label: "Screenshots or Video"
+      description: "Drag and drop images directly into this box to help me understand the suggestion better (visual mockup etc.)"
+      placeholder: "Paste or drag screenshots here..."
+    validations:
+      required: false
+  - type: upload
+    id: design-mockups-upload
     attributes:
       label: "Visuals / Mockups"
       description: "Upload a screenshot, sketch, or design mockup for this feature, if applicable."
